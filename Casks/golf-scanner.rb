@@ -3,7 +3,7 @@ cask "golf-scanner" do
   name "golf-scanner"
   desc "Security scanner for MCP servers"
   homepage "https://github.com/golf-mcp/golf-scanner"
-  version "0.1.0-rc.2"
+  version "0.1.0-rc.3"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "golf-scanner" do
   on_macos do
     on_intel do
       url "https://github.com/golf-mcp/golf-scanner/releases/download/v#{version}/golf-scanner_#{version}_darwin_amd64.tar.gz"
-      sha256 "1a82d6e089d43ccd0235811bbbe75033b51d33d66a43f4d4fe2af56677f3128e"
+      sha256 "78a7c98ef8cf112ec71847f302d36582cc21ea3ac6a456ad7a03b96373a8ff72"
     end
     on_arm do
       url "https://github.com/golf-mcp/golf-scanner/releases/download/v#{version}/golf-scanner_#{version}_darwin_arm64.tar.gz"
-      sha256 "806ddc1925d1de39bc253cb0cc6b9882697325b9b81a74232a282964abc72528"
+      sha256 "ba660a910f3b7deebceb861c3f8135e00438f879de60c9d6e45aa04ed13fe49d"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/golf-mcp/golf-scanner/releases/download/v#{version}/golf-scanner_#{version}_linux_amd64.tar.gz"
-      sha256 "7f4e7e254da72a75608933e72199519c0812d8225179d340bba77014765b63f4"
+      sha256 "424ebf1ace17532ffa307e882b38a83e89eaf9efe6f5c111234a7b739713f13d"
     end
     on_arm do
       url "https://github.com/golf-mcp/golf-scanner/releases/download/v#{version}/golf-scanner_#{version}_linux_arm64.tar.gz"
-      sha256 "219c8eaab8abceab3291076016d08f0a1333139eee6bdfedd5c3af29b818164d"
+      sha256 "cf0dd2b1f27434d1ec50fe6d179883fbe1ec509eb257c2eb365f041bdc101e80"
     end
   end
 
