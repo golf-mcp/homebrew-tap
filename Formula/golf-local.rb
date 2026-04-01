@@ -2,27 +2,27 @@ class GolfLocal < Formula
   desc "Extend Golf Gateway security to local MCP servers"
   homepage "https://github.com/golf-mcp/golf-local"
   license "Apache-2.0"
-  version "0.8.0"
+  version "0.9.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/golf-mcp/golf-local/releases/download/golf-local-v0.8.0/golf-local-darwin-arm64"
-      sha256 "79c3f4d6a5007c1ee5349cae52e04923ef868c4969c83b63c033214936a9a57c"
+      url "https://github.com/golf-mcp/golf-local/releases/download/golf-local-v0.9.0/golf-local-darwin-arm64"
+      sha256 "55afa34ca38fec6ded0fe11551aa2115db9ffee2acd53bb265385efaec0f1032"
     end
     on_intel do
-      url "https://github.com/golf-mcp/golf-local/releases/download/golf-local-v0.8.0/golf-local-darwin-amd64"
-      sha256 "5a4200835d260a508187bd8e201dc6e26438ec23f8c92483122586bedac70c6f"
+      url "https://github.com/golf-mcp/golf-local/releases/download/golf-local-v0.9.0/golf-local-darwin-amd64"
+      sha256 "218e937a85af9f4814aa610633c49423d77e936fbe94767a25c9b042533c0017"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/golf-mcp/golf-local/releases/download/golf-local-v0.8.0/golf-local-linux-arm64"
-      sha256 "cd19f8a998dd0b11f1ceee2b4bd3b401c51c396cbfb83eeaf08abbdc1d9eba1c"
+      url "https://github.com/golf-mcp/golf-local/releases/download/golf-local-v0.9.0/golf-local-linux-arm64"
+      sha256 "3a8b08c022e6ba4c498a8c04542bc9e3e273f6960659982723d5fd313bd3f83a"
     end
     on_intel do
-      url "https://github.com/golf-mcp/golf-local/releases/download/golf-local-v0.8.0/golf-local-linux-amd64"
-      sha256 "5a62dc66b84646a6543e6b58ce76d08ed4616de75ade33caab021c241a8b39e6"
+      url "https://github.com/golf-mcp/golf-local/releases/download/golf-local-v0.9.0/golf-local-linux-amd64"
+      sha256 "681c148a858a50244a649910eee72b6297eaa5757a1d4e3d46a0484f28e326a5"
     end
   end
 
